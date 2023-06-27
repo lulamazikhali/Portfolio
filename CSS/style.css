@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    height: 15vh;
+    background-color: #002922;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1{
+    font-size: 3em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+header ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 1em;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #00B999;
+    font-size: 1.5em;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    font-size: 2em;
+    color: white;
+}
+/* Header */
+
+/* Home Content */
+.home{
+    background-color: #002922;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+}
+
+.home div{
+    width: 50%;
+}
+
+.home div h1{
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.home div h3{
+    color: #00B999;
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.home div p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.home div button{
+    width: 20%;
+    padding: 1.2em;
+    color: #00B999;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #00B999;
+    border-radius: 6px;
+    cursor: pointer;
+    /* box-shadow: #00B999 0px 4px 6px, white 0px 2px 2px;
+    transition: all300ms ease; */
+}
+
+.home div button:hover{
+    box-shadow: #00B999 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: 2px solid #002922;
+}
+
+.home div i{
+    padding: 0.5em;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.home img{
+    width: 10%;
+}
+/* Home Content */
+
+/* About Content */
+.about{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about div{
+    padding: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about div h1{
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.about div h1 span{
+    color:#00B999
+}
+
+/* .about div img{
+    width: 20%;
+    height: 20vh;
+    border-radius: 50%;
+} */
+
+.about div p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.about div a{
+    text-decoration: none;
+}
+/* About Content */
+
+/* Education Content */
+.education{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
+.education .eduButtonsContainer, .eduContentContainer{
+    height: 100vh;
+    /* border: 1px solid white; */
+}
+
+.eduButtonsContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.eduButtonsContainer button{
+    padding: 1.5em;
+    width: 100%;
+    background-color: #00B999;
+    border:2px solid #00B999;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.eduButtonsContainer a{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.eduContentContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eduContentContainer h1{
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.eduContentContainer h1 span{
+    color:#00B999;
+}
+
+.eduContentContainer div{
+    width: 100%;
+    height: 80vh;
+    border: 2px solid #00B999;
+    border-radius: 6px;
+}
+/* Education Content */
+
+/* Skills Content */
+.skills{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
+.education .skillsButtonsContainer, .skillsContentContainer{
+    height: 100vh;
+    /* border: 1px solid white; */
+}
+
+.skillsButtonsContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.skillsButtonsContainer button{
+    padding: 1.5em;
+    width: 100%;
+    background-color: #14FF00;
+    border:2px solid #14FF00;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.skillsButtonsContainer a{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.skillsContentContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsContentContainer h1{
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.skillsContentContainer h1 span{
+    color:#14FF00;
+}
+
+.skillsContentContainer div{
+    width: 100%;
+    height: 80vh;
+    border: 2px solid #14FF00;
+    border-radius: 6px;
+}
+/* Skills Content */
