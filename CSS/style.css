@@ -284,3 +284,52 @@ ul li a:hover{
     border-radius: 6px;
 }
 /* Skills Content */
+
+
+/* Portfolio Content */
+.portfolio{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .portfolioHeading{
+    width: 100%;
+
+}
+
+.portfolioHeading h1{
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.portfolioHeading h1 span{
+    color: #00B999;
+}
+
+.portfolio .portContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.portContainer .portBoxOne, .portBoxTwo{
+    width: 45%;
+    height: 80vh;
+    border: 10px solid;
+    border-radius: 6px;
+}
+
+.portContainer .portBoxOne{
+    border-color: #00B999;
+}
+
+.portContainer .portBoxTwo{
+    border-color: #14FF00;
+}
+/* Portfolio Content */
