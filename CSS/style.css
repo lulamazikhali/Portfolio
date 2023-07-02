@@ -333,3 +333,87 @@ ul li a:hover{
     border-color: #14FF00;
 }
 /* Portfolio Content */
+
+/* Contact Content */
+.contactMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.contactMe .contactMeHeading h1{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.contactMeHeading h1 span{
+    color: #00B999;
+}
+
+.contactMe .contactBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.contactBox .details, .contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 80vh;
+    /* border: 1px solid white; */
+}
+
+.contactBox .details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.details h4{
+    font-size: 1.2em;
+    color: white;
+    font-weight: normal;
+    padding: 0.5em;
+}
+
+.details i{
+    padding: 0.5em;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contactBox .contactForm input, textarea{
+    width: 70%;
+    padding: 2em;
+    border: 3px solid #00B999;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+.contactBox .contactForm textarea{
+    height: 10em;
+}
+
+.contactForm button{
+    width: 25%;
+    padding: 1em;
+    border: 3px solid #00B999;
+    border-radius: 6px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #00B999;
+    cursor: pointer;
+}
+/* Contact Content */
